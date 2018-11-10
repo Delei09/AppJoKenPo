@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imagemResultado"
+        android:id="@+id/imagemResultados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -88,5 +88,5 @@
         android:text="Escolha uma opção!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagemResultado" />
+        app:layout_constraintTop_toBottomOf="@+id/imagemResultados" />
 </android.support.constraint.ConstraintLayout>
